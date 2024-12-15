@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:webview_flutter/webview_flutter.dart'
-    as webview_flutter; // alias tetap digunakan
+// import 'package:webview_flutter/webview_flutter.dart' as webview_flutter;
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:flutter_api_mobileapp/injector.dart';
 import 'package:flutter_api_mobileapp/movie/providers/movie_get_detail_provider.dart';
 import 'package:flutter_api_mobileapp/movie/providers/movie_get_videos_provider.dart';
 import 'package:flutter_api_mobileapp/widget/image_widget.dart';
 import 'package:flutter_api_mobileapp/widget/item_movie_widget.dart';
-import 'package:flutter_api_mobileapp/widget/webview_widget.dart'; // Pastikan ini digunakan
+// import 'package:flutter_api_mobileapp/widget/webview_widget.dart';
 import 'package:flutter_api_mobileapp/widget/youtube_player_widget.dart';
 
 class MovieDetailPage extends StatelessWidget {
@@ -139,42 +138,42 @@ class _WidgetAppBar extends SliverAppBar {
         ),
       );
 
-  @override
-  List<Widget>? get actions => [
-        Consumer<MovieGetDetailProvider>(builder: (_, provider, __) {
-          final movie = provider.movie;
+  // @override
+  // List<Widget>? get actions => [
+  //       Consumer<MovieGetDetailProvider>(builder: (_, provider, __) {
+  //         final movie = provider.movie;
 
-          if (movie != null) {
-            return Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: CircleAvatar(
-                backgroundColor: Colors.white,
-                foregroundColor: Colors.black,
-                child: IconButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) {
-                          // Gunakan WebViewWidget dari file webview_widget.dart
-                          return WebViewWidget(
-                            title: movie.title,
-                            url: movie.homepage,
-                            controller: webview_flutter.WebViewController(),
-                          );
-                        },
-                      ),
-                    );
-                  },
-                  icon: const Icon(Icons.public),
-                ),
-              ),
-            );
-          }
+  //         if (movie != null) {
+  //           return Padding(
+  //             padding: const EdgeInsets.all(8.0),
+  //             child: CircleAvatar(
+  //               backgroundColor: Colors.white,
+  //               foregroundColor: Colors.black,
+  //               child: IconButton(
+  //                 onPressed: () {
+  //                   Navigator.push(
+  //                     context,
+  //                     MaterialPageRoute(
+  //                       builder: (_) {
+  //                         // Gunakan WebViewWidget dari file webview_widget.dart
+  //                         return WebViewWidget(
+  //                           title: movie.title,
+  //                           url: movie.homepage,
+  //                           controller: webview_flutter.WebViewController(),
+  //                         );
+  //                       },
+  //                     ),
+  //                   );
+  //                 },
+  //                 icon: const Icon(Icons.public),
+  //               ),
+  //             ),
+  //           );
+  //         }
 
-          return const SizedBox();
-        }),
-      ];
+  //         return const SizedBox();
+  //       }),
+  //     ];
 
   @override
   double? get expandedHeight => 300;

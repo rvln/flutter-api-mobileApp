@@ -38,7 +38,7 @@ class App extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Movie DB',
+        title: 'Movie App',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

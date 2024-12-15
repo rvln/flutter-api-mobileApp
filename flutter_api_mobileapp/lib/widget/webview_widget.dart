@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebViewWidget extends StatefulWidget {
-  const WebViewWidget(
-      {super.key,
-      required this.title,
-      required this.url,
-      required WebViewController controller});
+  const WebViewWidget({
+    super.key,
+    required this.title,
+    required this.url,
+    required WebViewController
+        controller, // Masih dibiarkan tetapi dikomentari di bawah
+  });
 
   final String title;
   final String url;
@@ -16,14 +18,16 @@ class WebViewWidget extends StatefulWidget {
 }
 
 class WebViewWidgetState extends State<WebViewWidget> {
-  late final WebViewController _controller;
+  // late final WebViewController _controller; // Variabel dikomentari sementara
+  // ignore: prefer_final_fields
   int _progress = 0;
 
   @override
   void initState() {
     super.initState();
 
-    // Pastikan WebViewController sudah diinisialisasi
+    // Inisialisasi WebViewController dikomentari sementara
+    /*
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted) // Aktifkan JavaScript
       ..setBackgroundColor(Colors.white)
@@ -46,6 +50,7 @@ class WebViewWidgetState extends State<WebViewWidget> {
         ),
       )
       ..loadRequest(Uri.parse(widget.url));
+    */
   }
 
   @override
@@ -63,11 +68,13 @@ class WebViewWidgetState extends State<WebViewWidget> {
             )
           : Stack(
               children: [
+                /*
                 WebViewWidget(
                   controller: _controller,
                   title: '',
                   url: '',
-                ), // Widget WebView terbaru
+                ), // Widget WebView dikomentari sementara
+                */
                 if (_progress < 100)
                   const Positioned.fill(
                     child: Center(
