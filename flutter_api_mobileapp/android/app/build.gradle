@@ -24,7 +24,7 @@ android {
         applicationId = "com.example.flutter_api_mobileapp"
 
         // Ensure minimum SDK version is at least 19 for WebView compatibility.
-        minSdk = 19 // Set explicitly to support Platform Views.
+        minSdk = 21 // Set explicitly to support Platform Views.
 
         // Target SDK and versioning.
         targetSdk = flutter.targetSdkVersion
