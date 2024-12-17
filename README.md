@@ -14,7 +14,7 @@ Aplikasi ini dibuat dengan menggunakan Flutter dan menggunakan bahasa Dart. Apli
 ---
 
 ### API yang Digunakan
-Aplikasi ini menggunakan API dari **IMDb**.
+Aplikasi ini menggunakan API dari **TMDb**.
 
 ---
 
