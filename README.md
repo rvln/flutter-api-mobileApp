@@ -2,7 +2,7 @@
 Aplikasi ini merupakan aplikasi mobile yang bertujuan untuk menampilkan film-film yang sedang populer saat ini. Aplikasi ini menggunakan data yang sumbernya diambil dari TMDB API.  
 Aplikasi ini dibuat dengan menggunakan Flutter dan menggunakan bahasa Dart. Aplikasi ini memungkinkan pengguna untuk menjelajahi film, mencari film tertentu, dan melihat detailnya.
 
-**Link Demo**: [[Tautan Demo ](https://drive.google.com/open?id=1cyTZYP_3N1JKO1nB1RuCvVh-sb0CiMNR&usp=drive_fs )](#)
+**Link Demo**: [Tautan Demo ](https://drive.google.com/open?id=1cyTZYP_3N1JKO1nB1RuCvVh-sb0CiMNR&usp=drive_fs )
 
 ---
 
