@@ -11,6 +11,9 @@ Aplikasi ini dibuat dengan menggunakan Flutter dan menggunakan bahasa Dart. Apli
 2. **Pencarian Film**: Cari film dengan mudah menggunakan fitur pencarian.
 3. **Detail Film**: Lihat informasi lengkap tentang film, termasuk deskripsi, tahun rilis, dan lainnya.
 
+<img src="https://github.com/user-attachments/assets/743eba6d-453d-4005-9ed0-f23744501fc9" width="230" height="512"> 
+<img src="https://github.com/user-attachments/assets/3173e3fd-d490-4b99-b648-4ceabb32fdb8" width="230" height="512"> <img src="https://github.com/user-attachments/assets/c848f5fc-f0ce-46e7-ba73-d154b0fdb6ca" width="230" height="512"> <img src="https://github.com/user-attachments/assets/0bca9a30-b26c-4148-9130-92c6e20b48d2" width="230" height="512"> <img src="https://github.com/user-attachments/assets/a0229fa2-fed4-4ef5-8ae9-ed84a6d26a63" width="230" height="512"> <img src="https://github.com/user-attachments/assets/1d653b2f-68eb-41ff-95d1-f3fd7d48ceef" width="230" height="512">
+
 ---
 
 ### API yang Digunakan
