@@ -17,7 +17,7 @@ Aplikasi ini dibuat dengan menggunakan Flutter dan menggunakan bahasa Dart. Apli
 ---
 
 ### API yang Digunakan
-Aplikasi ini menggunakan API dari **TMDb**.
+Aplikasi ini menggunakan API dari [**TMDb**](https://developer.themoviedb.org/docs/getting-started).
 
 ---
 
